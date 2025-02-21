@@ -1,11 +1,26 @@
-str1 = """<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>Air4Thai</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="./fontawesome-6/css/all.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ0X6LTJCP"></script><script>window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-LQ0X6LTJCP');</script><link href="css/chunk-0d999424.54c228f4.css" rel="prefetch"><link href="css/chunk-11c017e9.09210bf8.css" rel="prefetch"><link href="css/chunk-2cd1134a.624f37fb.css" rel="prefetch"><link href="css/chunk-2dba504c.f2e776f5.css" rel="prefetch"><link href="css/chunk-35e74308.14856181.css" rel="prefetch"><link href="css/chunk-38ed8d77.1ccef854.css" rel="prefetch"><link href="css/chunk-41680be8.4405cdd4.css" rel="prefetch"><link href="css/chunk-608f029d.5d38dcb6.css" rel="prefetch"><link href="css/chunk-6298fcc4.1423a4c2.css" rel="prefetch"><link href="css/chunk-650be2c0.90e0f07f.css" rel="prefetch"><link href="css/chunk-89309138.66e07895.css" rel="prefetch"><link href="js/chunk-0d999424.70e59b58.js" rel="prefetch"><link href="js/chunk-11c017e9.3e478204.js" rel="prefetch"><link href="js/chunk-2cd1134a.61c6d5ad.js" rel="prefetch"><link href="js/chunk-2d0bd293.ed04f8a0.js" rel="prefetch"><link href="js/chunk-2dba504c.6b407924.js" rel="prefetch"><link href="js/chunk-35e74308.e144f7cd.js" rel="prefetch"><link href="js/chunk-38ed8d77.5febcfa5.js" rel="prefetch"><link href="js/chunk-41680be8.924ee9c5.js" rel="prefetch"><link href="js/chunk-608f029d.23e29c6f.js" rel="prefetch"><link href="js/chunk-6298fcc4.2e72c66f.js" rel="prefetch"><link href="js/chunk-650be2c0.24ac4b98.js" rel="prefetch"><link href="js/chunk-89309138.1443f183.js" rel="prefetch"><link href="css/app.00ed5eda.css" rel="preload" as="style"><link href="css/chunk-vendors.2bb9e93c.css" rel="preload" as="style"><link href="js/app.329b5741.js" rel="preload" as="script"><link href="js/chunk-vendors.fbf9ce59.js" rel="preload" as="script"><link href="css/chunk-vendors.2bb9e93c.css" rel="stylesheet"><link href="css/app.00ed5eda.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but air4thai doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.fbf9ce59.js"></script><script src="js/app.329b5741.js"></script></body></html>"""
-str2 = """<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>Air4Thai</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="./fontawesome-6/css/all.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-LQ0X6LTJCP"></script><script>window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-LQ0X6LTJCP');</script><link href="css/chunk-0d999424.54c228f4.css" rel="prefetch"><link href="css/chunk-11c017e9.09210bf8.css" rel="prefetch"><link href="css/chunk-2cd1134a.624f37fb.css" rel="prefetch"><link href="css/chunk-2dba504c.f2e776f5.css" rel="prefetch"><link href="css/chunk-35e74308.14856181.css" rel="prefetch"><link href="css/chunk-38ed8d77.1ccef854.css" rel="prefetch"><link href="css/chunk-41680be8.4405cdd4.css" rel="prefetch"><link href="css/chunk-608f029d.5d38dcb6.css" rel="prefetch"><link href="css/chunk-6298fcc4.1423a4c2.css" rel="prefetch"><link href="css/chunk-650be2c0.90e0f07f.css" rel="prefetch"><link href="css/chunk-89309138.66e07895.css" rel="prefetch"><link href="js/chunk-0d999424.70e59b58.js" rel="prefetch"><link href="js/chunk-11c017e9.3e478204.js" rel="prefetch"><link href="js/chunk-2cd1134a.61c6d5ad.js" rel="prefetch"><link href="js/chunk-2d0bd293.ed04f8a0.js" rel="prefetch"><link href="js/chunk-2dba504c.6b407924.js" rel="prefetch"><link href="js/chunk-35e74308.e144f7cd.js" rel="prefetch"><link href="js/chunk-38ed8d77.5febcfa5.js" rel="prefetch"><link href="js/chunk-41680be8.924ee9c5.js" rel="prefetch"><link href="js/chunk-608f029d.23e29c6f.js" rel="prefetch"><link href="js/chunk-6298fcc4.2e72c66f.js" rel="prefetch"><link href="js/chunk-650be2c0.24ac4b98.js" rel="prefetch"><link href="js/chunk-89309138.1443f183.js" rel="prefetch"><link href="css/app.00ed5eda.css" rel="preload" as="style"><link href="css/chunk-vendors.2bb9e93c.css" rel="preload" as="style"><link href="js/app.329b5741.js" rel="preload" as="script"><link href="js/chunk-vendors.fbf9ce59.js" rel="preload" as="script"><link href="css/chunk-vendors.2bb9e93c.css" rel="stylesheet"><link href="css/app.00ed5eda.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but air4thai doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.fbf9ce59.js"></script><script src="js/app.329b5741.js"></script></body></html>"""
-print(str1==str2)
+from bs4 import BeautifulSoup
+import re
+
+# Read the HTML file
+with open('data/27.html', 'r', encoding='utf-8') as file:
+      content = file.read()
+
+# Parse the HTML content
+soup = BeautifulSoup(content, 'html.parser')
+
+# Find all <text> tags inside <g> elements
+text_elements = soup.find_all("text")
+
+# Extract station code and address using regex
+data = []
+pattern = re.compile(r"(\d+t) \((.+)\)")
+
+for text in text_elements:
+    match = pattern.search(text.text.strip())
+    if match:
+        station_code = match.group(1)
+        thai_address = match.group(2)
+        data.append((station_code, thai_address))
+
+# Output the extracted list
+print(data)

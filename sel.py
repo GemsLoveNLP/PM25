@@ -16,25 +16,31 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 # Open the website
 driver.get("http://air4thai.pcd.go.th/webV3/#/History")
 
+count = 0
+
 # Wait for the user to manually make selections
-print("Please complete the checkbox selections manually. Press Enter here to continue...")
-input()
+while True:
+    print("Please complete the checkbox selections manually. Press Enter here to continue...")
+    if input() == "q":
+        break
+    else:
+        count += 1
 
-# Now the script resumes after manual selections
-try:
-    # Get the page HTML and prettify it using BeautifulSoup
-    html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
-    pretty_html = soup.prettify()
+    # Now the script resumes after manual selections
+    try:
+        # Get the page HTML and prettify it using BeautifulSoup
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        pretty_html = soup.prettify()
 
-    # Write the prettified HTML to a file
-    with open('_.html', 'w', encoding='utf-8') as file:
-        file.write(pretty_html)
+        # Write the prettified HTML to a file
+        with open(f'stations\{count}.html', 'w', encoding='utf-8') as file:
+            file.write(pretty_html)
 
-    print("The HTML has been saved to _.html.")
+        print("The HTML has been saved to _.html.")
 
-except Exception as e:
-    print(f"An error occurred: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 # Close the browser
 driver.quit()
